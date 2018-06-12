@@ -248,6 +248,7 @@ $number-of-child-buttons: 10 !default;
  */
 
 .mfb-component__icon {
+    color: #C0F403;
     position: absolute;
     font-size: $icons-font-size;
     text-align: center;
@@ -293,6 +294,7 @@ $number-of-child-buttons: 10 !default;
 // the icons for the main button
 .mfb-component__main-icon--active,
 .mfb-component__main-icon--resting {
+    color: #C0F403;
     @extend .mfb-component__icon;
     -webkit-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg);

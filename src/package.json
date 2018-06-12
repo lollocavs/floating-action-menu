@@ -1,6 +1,6 @@
 {
-    "name": "ng2-floating-action-menu",
-    "version": "0.1.1",
+    "name": "ngx-fab-menu",
+    "version": "0.1.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/lollocavs/floating-action-menu"
