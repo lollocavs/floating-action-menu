@@ -11,18 +11,26 @@
         "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
         "test": "tsc && karma start"
     },
+    "main": "dist/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/igghera/floating-action-menu"
+        "url": "https://github.com/lollocavs/floating-action-menu"
     },
     "author": {
-        "name": "Andrea Gherardi",
-        "email": "a.gherardi85@gmail.com"
+        "name": "Lorenzo Cavalieri",
+        "email": "lorenzocavalieri@icloud.com"
     },
-    "keywords": ["angular", "floating", "action", "button", "menu", "material"],
+    "keywords": [
+        "angular",
+        "floating",
+        "action",
+        "button",
+        "menu",
+        "material"
+    ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/igghera/floating-action-menu/issues"
+        "url": "https://github.com/lollocavs/floating-action-menu/issues"
     },
     "devDependencies": {
         "@angular/common": "^4.0.0",
@@ -48,10 +56,10 @@
         "karma-coverage-istanbul-reporter": "^0.2.0",
         "karma-jasmine": "~1.1.0",
         "karma-jasmine-html-reporter": "^0.2.2",
-        "node-sass": "^4.5.2",
+        "node-sass": "^4.9.0",
         "node-sass-tilde-importer": "^1.0.0",
         "node-watch": "^0.5.2",
-        "protractor": "~5.1.0",
+        "protractor": "^5.3.2",
         "rollup": "^0.41.6",
         "run-sequence": "^1.2.2",
         "rxjs": "^5.1.0",
