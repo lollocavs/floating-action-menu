@@ -1,4 +1,5 @@
 # ng2-floating-action-menu
+**NOTE: Fork version with custom button colors**
 
 updated version of [ng2-floating-button](https://github.com/tahashahid/ng2-floating-button)
 
